@@ -1,0 +1,14 @@
+pragma solidity ^0.8.13;
+
+
+contract forloop{
+    uint256[] data;
+    
+
+    function loop() public returns(uint256[] memory){
+        for(uint104 i=0; i < 5;i++){
+            data.push(i);
+        }
+        return data;
+    }
+}
